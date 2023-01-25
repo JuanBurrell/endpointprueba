@@ -1,0 +1,27 @@
+{
+  "name": "endpointprueba",
+  "version": "1.0.0",
+  "description": "un api de prueba",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanBurrell/endpointprueba.git"
+  },
+  "author": "Juan B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanBurrell/endpointprueba/issues"
+  },
+  "homepage": "https://github.com/JuanBurrell/endpointprueba#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-plugin-vue": "^9.9.0"
+  }
+}
