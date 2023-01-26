@@ -31,6 +31,8 @@ router.get('/', function(req, res) {
   res.json({ mensaje: '¡Bienvenido a nuestra API!' })  
 })
 
+/*
+
 // nuestra ruta irá en http://localhost:8080/api
 // es bueno que haya un prefijo, sobre todo por el tema de versiones de la API
 app.use('/api', router)
@@ -65,4 +67,4 @@ app.use('/api', router)
 
 //arrancamos el servidor
 app.listen(port)
-console.log('API escuchando en el puerto ' + port)
+console.log('API escuchando en el puerto ' + port)*/
